@@ -26,6 +26,11 @@
   ul.links { list-style:none; }
   ul.links li { margin:8px 0; }
   ul.links a { color:var(--red); }
+  .gallery { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:18px; margin-top:6px; }
+  .gallery figure { background:#fff; border:1px solid #e3dccb; border-radius:8px; overflow:hidden; }
+  .gallery img { width:100%; height:300px; object-fit:cover; display:block; }
+  .gallery figcaption { padding:10px 12px; font-size:14px; line-height:1.5; }
+  .gallery .series { color:var(--red); font-size:12px; letter-spacing:1px; }
   footer { text-align:center; padding:28px 20px; background:var(--ink); color:#cfc9bb; font-size:14px; }
 </style>
 </head>
@@ -67,22 +72,44 @@
   </section>
 
   <section>
-    <h2>Vintage Japanese art — design series by TPP</h2>
-    <div class="cards">
+    <h2>What we do — vintage Japanese art, in three series</h2>
+    <p>Alongside our puzzle books, we design original vintage-Japan artwork in Tokyo. Every design belongs to one of three series, each signed “by TPP” (TPP = Tokyo Page Press). The artwork is offered as wall-art prints and gifts — posters, T-shirts, mugs and tote bags — produced on demand by our print partners, so nothing is stocked or shipped from a warehouse.</p>
+    <div class="cards" style="margin-top:16px;">
       <div class="card">
         <h3>EDO Series by TPP</h3>
-        <p>Streetscapes, castles and travel scenes of old Edo and Kyoto — pagodas, sakura and Mt. Fuji.</p>
+        <p>Scenes of old Japan: Edo streetscapes, castles, the Tōkaidō road and Kyoto. Quiet landscapes in soft vintage colour.</p>
+        <p style="margin-top:8px;"><strong>Current works:</strong><br>• Kyoto Pagoda in Autumn Leaves<br>• Castle and Cherry Blossom Sakura<br>• Kyoto Street at Dusk<br>• Castle at Sunset<br>• Bamboo Grove and Bridge</p>
       </div>
       <div class="card">
         <h3>TAISHO ROMANCE Series by TPP</h3>
-        <p>Retro Taisho-era streets, trams and architecture in soft, nostalgic palettes.</p>
+        <p>Japan of the Taisho era (1912–1926): retro streets, trams and Western-influenced architecture in nostalgic palettes.</p>
+        <p style="margin-top:8px;"><strong>Current works:</strong><br>• Taisho Streetcar at Dusk</p>
       </div>
       <div class="card">
         <h3>UKIYO-E Series by TPP</h3>
-        <p>Woodblock-style prints in the spirit of Hokusai and Hiroshige — waves, cranes and red Fuji.</p>
+        <p>Woodblock-style prints in the spirit of Hokusai and Hiroshige — the classic ukiyo-e look of waves, mountains and seasons.</p>
+        <p style="margin-top:8px;"><strong>Current works:</strong><br>• Great Wave, Castle and Mt Fuji<br>• Red Fuji — Mt Fuji in warm red tones<br>• Cranes and Pine<br>• Mt Fuji and Sakura Lake<br>• Koi Pond</p>
       </div>
     </div>
-    <p style="margin-top:14px;">TPP is short for Tokyo Page Press. Our designs appear on prints and gifts through print-on-demand partners.</p>
+    <p style="margin-top:14px;">New designs are added to each series every month.</p>
+  </section>
+
+  <section>
+    <h2>Artwork gallery</h2>
+    <div class="gallery">
+      <figure><img src="design1.jpg" alt="Great Wave, Castle and Mt Fuji — ukiyo-e style illustration"><figcaption>Great Wave, Castle and Mt Fuji<br><span class="series">UKIYO-E SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design2.jpg" alt="Kyoto Pagoda in Autumn Leaves — vintage Japanese illustration"><figcaption>Kyoto Pagoda in Autumn Leaves<br><span class="series">EDO SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design3.jpg" alt="Castle and Cherry Blossom Sakura — ukiyo-e style illustration"><figcaption>Castle and Cherry Blossom Sakura<br><span class="series">EDO SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design4.jpg" alt="Red Fuji — vintage Japanese woodblock style illustration"><figcaption>Red Fuji<br><span class="series">UKIYO-E SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design6.jpg" alt="Kyoto Street at Dusk — vintage Japanese illustration"><figcaption>Kyoto Street at Dusk<br><span class="series">EDO SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design7.jpg" alt="Castle at Sunset — vintage Japanese illustration"><figcaption>Castle at Sunset<br><span class="series">EDO SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design8.jpg" alt="Cranes and Pine — ukiyo-e style illustration"><figcaption>Cranes and Pine<br><span class="series">UKIYO-E SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design9.jpg" alt="Mt Fuji and Sakura Lake — ukiyo-e style illustration"><figcaption>Mt Fuji and Sakura Lake<br><span class="series">UKIYO-E SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design10.jpg" alt="Taisho Streetcar at Dusk — retro Japanese illustration"><figcaption>Taisho Streetcar at Dusk<br><span class="series">TAISHO ROMANCE SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design11.jpg" alt="Koi Pond — ukiyo-e style illustration"><figcaption>Koi Pond<br><span class="series">UKIYO-E SERIES BY TPP</span></figcaption></figure>
+      <figure><img src="design12.jpg" alt="Bamboo Grove and Bridge — vintage Japanese illustration"><figcaption>Bamboo Grove and Bridge<br><span class="series">EDO SERIES BY TPP</span></figcaption></figure>
+    </div>
+    <p style="margin-top:14px;">Our artwork is also available as licensed stock illustration — links will be added here as each collection is approved.</p>
   </section>
 
   <section>
